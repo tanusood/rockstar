@@ -1,53 +1,17 @@
 <!doctype html>
-<html style="background-color:  #336bff ;">
+<html>
     <head><title>
 	hospital</title>
-        <style type="text/css">
-        body{background-color:#33c4ff}
- #header {
-    
-    color:pink;
-    text-align:center;
-    padding:5px;
-}
-div {
-  
-    background-color: rgb(0, 195, 255);
-    color: rgb(255, 255, 255);
-    padding: 35px;
-}
-            body {font-family:Arial, Sans-Serif;}
-             
-    
-            #container {width:500px; margin:10px auto;}
- 
-          
-            form label {display:inline-block; width:300px;}
- 
-           
-            form input[type="text"],
-            form input[type="password"],
-            form input[type="email"] {width:160px;}
- 
-            form .line {clear:both;}
-            form .line.submit {text-align:center;padding: 20px; font-size:20px;
-    margin: 10px 15px;}
- 
-        </style>
+        <link rel="stylesheet" type="text/css" href="login.css">
     </head>
     <body>
-        <div id="container">
-            <form>
-                <div id="header">
-<h1>Login</h1>
-</div>
-                <div class="line"><label for="username">Username *: </label><input type="text" id="username" /></div>
-                <div class="line"><label for="pwd">Password *: </label><input type="password" id="pwd" /></div>
-                <!-- You may want to consider adding a "confirm" password box also -->
-              <div class="line submit" ><input type="submit" value="Submit" /></div>
- 
-            
-            </form>
-        </div>
+        <div class="login">
+            <input type="text" placeholder="Username" id="username">  
+              <input type="password" placeholder="password" id="password">  
+              <a href="#" class="forgot">forgot password?</a>
+              <input type="submit" value="Sign In">
+            </div>
+        <div class="shadow"></div>
+
     </body>
 </html>
